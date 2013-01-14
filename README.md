@@ -8,9 +8,9 @@ Update your `project.clj` with
 
 ```clojure
 (defproject your-project
-  :dev-dependencies [...
-                     [nrepl-transcript "0.1.0"]
-                     ...]
+  :dependencies [...
+                 [nrepl-transcript "0.1.0"]
+                 ...]
   ...
   :repl-options {:nrepl-middleware
                  [nrepl-transcript.file/wrap-file-transcript]}
