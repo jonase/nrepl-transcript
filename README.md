@@ -1,7 +1,5 @@
 # nrepl-transcript
 
-** Not released to clojars yet **
-
 [nREPL](https://github.com/clojure/tools.nrepl) middleware to save a transcript of your repl interactions.
 
 ## Usage
